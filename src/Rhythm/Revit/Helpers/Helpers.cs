@@ -57,7 +57,7 @@ namespace Rhythm.Revit.Helpers
 
 
         /// <summary>
-        /// This allows you to turn off element binding in the DYN.
+        /// This allows you to turn off element binding in the DYN. If set to False, Element Bindings are removed of the actual dyn file and new Element Bindings are not created when saving the dyn file. Tutorial at https://www.youtube.com/watch?v=rhsxwTrMha8
         /// </summary>
         /// <param name="toggle"></param>
         /// <returns></returns>
